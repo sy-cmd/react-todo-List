@@ -13,9 +13,10 @@ input,
 button {
   font-family: 'Press Start 2P', system-ui;
 }
+Playwrite Australia SA
 
 h1{
-  font-family: 'Rubik Viny',system-ui;
+  font-family: "Playwrite AU SA", serif;
   color: #ffffff;
 }
 .para{
@@ -35,8 +36,12 @@ h1{
 #root{
   background-image: url('/public/img/the-majestic-red-planet-13.jpg');
   width: 100%;
-  height: 100%;
+  height: auto;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0%;
+  margin-bottom: 0%;
 
 }
 
@@ -128,7 +133,9 @@ p {
 }
 
 .h1-header{
+  font-family: "Playwrite AU SA", serif;
   text-align: center;
+  color: #ffffff;
 
 }
 
@@ -144,3 +151,13 @@ p {
     font-size: 1em;
   }
 }
+
+/* @media (min-width: 200px){
+  #root{
+    background-image: url('/public/img/the-majestic-red-planet-13.jpg ' );
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+} */
